@@ -1,0 +1,40 @@
+def function(x,y,z):
+    print('x=',x)
+    print('y=',y)
+    print('z=',z)
+function(10,20,30)
+function(x=10,y=20,z=30)
+def counselling(name, mobile, course='python'):
+    print(name)
+    print(mobile)
+    print(course)
+counselling('raj','6305277','java')
+counselling('raj','6305277')
+def function( * a ):
+    print(a)
+function()
+function(1)
+function(1,2,3)
+function(1,'raj','java',9.8,1000)
+def function( * a ):
+    for i in a:
+        print(i,end=' ')
+    print()
+function()
+function(1)
+function(1,2,3)
+function(1,'raj','java',9.8,1000)
+def function(x,*y,z=100):
+    print(x)
+    print(y)
+    print(z)
+function(10, 20, 30, 40, 60)
+function(10, 20, 30, 40)
+function(10, 20, 30, z=108)
+def function(name, blood_group, disease, email='deepu1703@gmail.com'):
+    print('name=',name)
+    print('blood_group=',blood_group)
+    print('disease= ',disease)
+    print('email=',email)
+function('raj','0-positive','fever','graj6650@gmail.com')
+function('raj','0-positive','fever')
